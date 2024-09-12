@@ -1,0 +1,20 @@
+.h1{
+    background: linear-gradient(to right, rgba(89,150,223), rgb(186,108,125)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  width: fit-content;
+  animation:animate 2s infinite;
+}
+@keyframes animate {
+  0%{
+    filter: hue-rotate(0deg);
+    }
+    50%{
+      filter: hue-rotate(180deg);
+
+    }
+    0%{
+    filter: hue-rotate(360deg);
+
+    }
+}
